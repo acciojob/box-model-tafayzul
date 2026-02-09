@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+/* Main Container */
+.container {
+  width: 120px;                 /* Specific width */
+  padding: 10px;                /* Padding around the content */
+  margin: 50px auto;            /* Centers the container on the page */
+  border: 2px solid #ccc;       /* Grey border */
+  border-radius: 15px;          /* Rounded border for the container */
+  background-color: #f0f0f0;    /* Light background color */
+  text-align: center;           /* Centers the inline blocks inside */
+}
+
+/* Shared styles for all circles */
+.red, .yellow, .green {
+  width: 20px;                  /* Specific size */
+  height: 20px;                 /* Specific size */
+  border-radius: 50%;           /* Makes the square div a circle */
+  display: inline-block;        /* Places them in a single line */
+  margin: 0 4px;                /* Small gap between the circles */
+}
+
+/* Individual Colors */
+.red {
+  background-color: #ff5f57;    /* Red */
+}
+
+.yellow {
+  background-color: #ffbd2e;    /* Yellow */
+}
+
+.green {
+  background-color: #28ca41;    /* Green */
+}
