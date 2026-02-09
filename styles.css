@@ -1,33 +1,33 @@
-/*  your css code here. If applicable */
 /* Main Container */
 .container {
-  width: 120px;                 /* Specific width */
-  padding: 10px;                /* Padding around the content */
-  margin: 50px auto;            /* Centers the container on the page */
-  border: 2px solid #ccc;       /* Grey border */
-  border-radius: 15px;          /* Rounded border for the container */
-  background-color: #f0f0f0;    /* Light background color */
-  text-align: center;           /* Centers the inline blocks inside */
+  width: 130px;                 /* Fixed width */
+  padding: 15px;                /* Padding to create space inside the border */
+  margin: 50px auto;            /* Center the container */
+  border: 2px solid black;      /* Solid black border as seen in the image */
+  border-radius: 50px;          /* High radius for the "pill" shape */
+  background-color: #d3d3d3;    /* Grey background */
+  text-align: center;           /* Align circles to the center */
+  font-size: 0;                 /* Removes accidental whitespace gaps between inline-blocks */
 }
 
-/* Shared styles for all circles */
+/* Shared Circle Styles */
 .red, .yellow, .green {
-  width: 20px;                  /* Specific size */
-  height: 20px;                 /* Specific size */
-  border-radius: 50%;           /* Makes the square div a circle */
-  display: inline-block;        /* Places them in a single line */
-  margin: 0 4px;                /* Small gap between the circles */
+  width: 30px;                  /* Size of the circles */
+  height: 30px;
+  border-radius: 50%;           /* Make them circular */
+  display: inline-block;        /* Sit side-by-side */
+  margin: 0 5px;                /* Spacing between circles */
 }
 
-/* Individual Colors */
-.red {
-  background-color: #ff5f57;    /* Red */
+/* Exact Color Keywords (Required for your Tests) */
+.green {
+  background-color: green;      /* Matches image position 1 */
 }
 
 .yellow {
-  background-color: #ffbd2e;    /* Yellow */
+  background-color: yellow;     /* Matches image position 2 */
 }
 
-.green {
-  background-color: #28ca41;    /* Green */
+.red {
+  background-color: red;        /* Matches image position 3 */
 }
